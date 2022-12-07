@@ -1,5 +1,5 @@
-mod day5;
+mod day7;
 
 fn main() {
-    day5::run();
+    day7::run();
 }
