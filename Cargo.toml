@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 map-macro = "0.2.4"
+regex="1.7.0"
