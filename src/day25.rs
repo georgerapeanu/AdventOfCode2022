@@ -58,6 +58,6 @@ pub fn run() {
   let v = stdin.lines().map(|x| x.unwrap().to_string().trim().to_string())
                        .filter(|x| x.len() > 0)
                        .collect::<Vec<String>>();
-  println!("Day 24 Part 1: {}",part1(&v).unwrap());
-  println!("Day 24 Part 2: {}",part2(&v).unwrap());
+  println!("Day 25 Part 1: {}",part1(&v).unwrap());
+  println!("Day 25 Part 2: {}",part2(&v).unwrap());
 }
